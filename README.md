@@ -61,6 +61,7 @@ Base Directory: c:/Users/mrbro/OneDrive/Desktop/inside iim
 │   │   ├── layout.tsx
 │   │   └── page.tsx            # Main Glassmorphic Dashboard UI
 │   ├── components/             # Reusable UI component frames
+│   │   └── StockChart.tsx      # TradingView stock candlestick chart component
 │   ├── langchain/              # Stateful LangGraph implementation
 │   │   ├── graph.ts            # Graph compiler & conditional routing
 │   │   ├── nodes.ts            # Action nodes (financials, LLM synthesis)
@@ -68,6 +69,7 @@ Base Directory: c:/Users/mrbro/OneDrive/Desktop/inside iim
 │   │   └── tools.ts            # Structured Zod search tools
 │   ├── lib/
 │   │   ├── db.ts               # Database singleton (standby)
+│   │   ├── mapping.ts          # Normalizer mapping state to layout frames
 │   │   └── mockData.ts         # High-fidelity offline mockup datasets
 │   ├── services/
 │   │   └── alphaVantage.ts     # Alpha Vantage balance sheet collector
@@ -121,8 +123,8 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/sumantkumar1600/kmrl-metro.git
-cd kmrl-metro
+git clone https://github.com/sumantkumar1600/valo-ai-analysis-platform.git
+cd valo-ai-analysis-platform
 ```
 
 ### Install Dependencies
