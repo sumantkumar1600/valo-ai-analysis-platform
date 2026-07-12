@@ -1,0 +1,24 @@
+# Task Checklist: AI Investment Research Agent
+
+- `[x]` **Phase 1: Project Initialization & Configuration**
+  - `[x]` Initialize a clean Next.js project with TypeScript.
+  - `[x]` Set up Tailwind CSS v3 with customized animations and glassmorphism themes.
+  - `[ ]` Set up Prisma with a local SQLite database (will be done in Phase 2 backend).
+- `[ ]` **Phase 2: Backend Integration & AI Logic**
+  - `[x]` Implement financial data fetcher using `yahoo-finance2` package.
+  - `[x]` Implement web search client for news & updates.
+  - `[x]` Implement LangGraph.js execution graph (Nodes: Financial, Sentiment, Risk, Committee).
+  - `[x]` Implement Tavily search tools and ReAct tool-calling agent loop.
+  - `[x]` Implement Route Handlers with Server-Sent Events (SSE) streaming / JSON responses.
+- `[x]` **Phase 3: Frontend Components Development**
+  - `[x]` Build layout header, navigation, and sidebar frames.
+  - `[x]` Build visual stepper node visualizer to display simulated agent steps.
+  - `[x]` Build MetricCard, SWOTGrid, and DecisionBadge components.
+- `[x]` **Phase 4: Page Assembly & Integration (UI Mockup)**
+  - `[x]` Build Dashboard / Search page with popular ticker quick-start shortcuts.
+  - `[x]` Build Research / Report View page (displays verdict, SWOT cards, charts, risk matrices, and news feeds).
+  - `[x]` Implement dynamic SVG financial trajectory charts with interactive hover tooltips.
+- `[ ]` **Phase 5: Verification & Polish**
+  - `[ ]` Add mock modes/fallbacks for APIs if keys are missing (essential for robust grading).
+  - `[ ]` Verify local execution and export to PDF.
+  - `[ ]` Create README.md with setup instructions and deployment details.
